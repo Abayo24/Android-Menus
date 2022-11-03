@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Menus</string>
+    <string name="loginButton">Login</string>
+    <string name="loginButton1">Signup</string>
+    <string name="textView">Don"'"t Have an Account?</string>
+</resources>

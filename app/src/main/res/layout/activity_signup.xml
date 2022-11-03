@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Signup">
+
+    <EditText
+        android:id="@+id/firstName"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="First Name"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/lastName"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="Last Name"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/EmailAddress"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/Phone"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="Mobile Phone Number"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/ConfirmPassword"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="300dp"
+        android:background="@drawable/button_shape"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/loginButton1" />
+</LinearLayout>
